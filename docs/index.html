@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARchitect: Room Scan & Design – Your home, redesigned in AR</title>
+<meta name="description" content="Scan a room into a floor plan in seconds, then repaint real walls and swap floors live in AR. Measurement notebook, “Will it fit?” and listing videos. For iPhone.">
+<meta name="apple-itunes-app" content="app-id=6758917520">
+<link rel="icon" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ARchitect Pocket">
+<meta property="og:url" content="https://mesutdokumaci1.github.io/ARchitectPocket/">
+<meta property="og:title" content="ARchitect: Room Scan & Design – Your home, redesigned in AR">
+<meta property="og:description" content="Room scan → floor plan in seconds. Repaint real walls & swap floors live in AR. Free on the App Store.">
+<meta property="og:image" content="https://mesutdokumaci1.github.io/ARchitectPocket/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="ARchitect: Room Scan & Design – Your home, redesigned in AR">
+<meta name="twitter:description" content="Room scan → floor plan in seconds. Repaint real walls & swap floors live in AR.">
+<meta name="twitter:image" content="https://mesutdokumaci1.github.io/ARchitectPocket/og.png">
+<script>
+  // Campaign from ?c=x (x, reddit, linkedin…) → App Store Connect campaign analytics
+  (function () {
+    var p = new URLSearchParams(location.search);
+    var c = (p.get('c') || 'web').toLowerCase().replace(/[^a-z0-9_-]/g, '').slice(0, 29) || 'web';
+    var store = 'https://apps.apple.com/app/apple-store/id6758917520?pt=118354005&ct=' + c + '&mt=8';
+    window.STORE_URL = store;
+    var ua = navigator.userAgent;
+    var iOS = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+    if (iOS && !p.has('stay')) location.replace(store);
+  })();
+</script>
+<style>
+  :root { --bg:#07060f; --fg:#fff; --muted:rgba(255,255,255,.72); --accent:#5eead4; --violet:#c084fc; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",Roboto,sans-serif; }
+  .hero { background:radial-gradient(circle at 80% 20%,#7b2ff7 0%,transparent 45%),radial-gradient(circle at 100% 100%,#10b981 0%,transparent 40%),linear-gradient(135deg,#120a2e,#05050c 70%); padding:64px 24px 72px; }
+  .wrap { max-width:1100px; margin:0 auto; }
+  .top { display:flex; align-items:center; gap:16px; }
+  .top img { width:72px; height:72px; border-radius:17px; box-shadow:0 10px 30px rgba(0,0,0,.5); }
+  .top span { font-size:20px; font-weight:600; opacity:.85; }
+  h1 { font-size:clamp(44px,8vw,84px); line-height:1.02; letter-spacing:-1.5px; margin:28px 0 20px; }
+  h1 em { font-style:normal; background:linear-gradient(90deg,var(--violet),var(--accent)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .lead { font-size:20px; line-height:1.55; color:var(--muted); max-width:640px; margin:0; }
+  ul { list-style:none; padding:0; margin:24px 0 32px; font-size:18px; line-height:1.9; }
+  li::before { content:"●"; color:var(--accent); margin-right:10px; }
+  .cta { display:flex; flex-wrap:wrap; align-items:center; gap:24px; }
+  .btn { display:inline-flex; align-items:center; gap:10px; background:#fff; color:#000; text-decoration:none; font-weight:700; font-size:18px; padding:16px 28px; border-radius:40px; }
+  .qr { display:none; align-items:center; gap:14px; color:var(--muted); font-size:15px; }
+  .qr img { width:104px; height:104px; border-radius:12px; background:#fff; padding:6px; }
+  @media (hover:hover) and (min-width:800px) { .qr { display:flex; } }
+  .shots { display:flex; gap:18px; overflow-x:auto; padding:48px 24px; max-width:1148px; margin:0 auto; scroll-snap-type:x mandatory; }
+  .shots img { height:520px; border-radius:28px; scroll-snap-align:start; flex:none; box-shadow:0 20px 50px rgba(0,0,0,.5); }
+  @media (max-width:600px) { .shots img { height:420px; } }
+  footer { text-align:center; padding:24px 24px 48px; color:rgba(255,255,255,.5); font-size:14px; }
+  footer a { color:rgba(255,255,255,.7); }
+</style>
+</head>
+<body>
+<section class="hero">
+  <div class="wrap">
+    <div class="top"><img src="icon.png" alt="ARchitect app icon"><span>ARchitect: Room Scan &amp; Design</span></div>
+    <h1>Your home,<br><em>redesigned in AR.</em></h1>
+    <p class="lead">Scan any room into an accurate floor plan, then see new paint, floors and furniture on your real walls – live, before you buy a single thing.</p>
+    <ul>
+      <li>Repaint real walls &amp; swap floors live</li>
+      <li>Room scan → floor plan in seconds (PDF, DXF, USDZ)</li>
+      <li>Measurement notebook: “Will it fit?”</li>
+      <li>Listing videos for real-estate agents</li>
+    </ul>
+    <div class="cta">
+      <a class="btn" id="dl" href="https://apps.apple.com/app/apple-store/id6758917520?pt=118354005&amp;ct=web&amp;mt=8">Download on the App Store</a>
+      <div class="qr"><img src="qr.png" alt="QR code to the App Store"><span>Scan with your iPhone<br>to download</span></div>
+    </div>
+  </div>
+</section>
+<div class="shots">
+  <img src="s1.jpg" alt="Screenshot 1" loading="lazy">
+  <img src="s2.jpg" alt="Screenshot 2" loading="lazy">
+  <img src="s3.jpg" alt="Screenshot 3" loading="lazy">
+  <img src="s4.jpg" alt="Screenshot 4" loading="lazy">
+  <img src="s5.jpg" alt="Screenshot 5" loading="lazy">
+  <img src="s6.jpg" alt="Screenshot 6" loading="lazy">
+</div>
+<footer>
+  For iPhone &amp; iPad · Works on any iPhone, LiDAR optional<br>
+  <a href="https://github.com/mesutdokumaci1/ARchitectPocket#readme">Support</a> ·
+  <a href="https://github.com/mesutdokumaci1/ARchitectPocket/blob/main/PRIVACY.md">Privacy</a> ·
+  <a href="https://github.com/mesutdokumaci1/ARchitectPocket/tree/main/presskit">Press kit</a> ·
+  <a href="mailto:mesut_dokumaci@hotmail.com">Contact</a>
+</footer>
+<script>document.getElementById('dl').href = window.STORE_URL;</script>
+</body>
+</html>
